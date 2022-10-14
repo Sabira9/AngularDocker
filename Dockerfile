@@ -7,4 +7,4 @@ COPY . .
 RUN ng build --prod
 
 FROM nginx
-COPY --form=build /app/dist/myportfolio/ /usr/share/nginx/html/
+COPY --form=build /app/dist/Portfolio/ /usr/share/nginx/html/
